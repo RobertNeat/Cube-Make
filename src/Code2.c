@@ -1,6 +1,6 @@
 /* fugury.c */
-#include "libpole.h"
-#include "libobjetosc.h"
+#include "../include/libpole.h"
+#include "../include/libobjetosc.h"
 #include <stdio.h>
 
 main(){
