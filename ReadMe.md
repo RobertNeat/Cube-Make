@@ -1,3 +1,5 @@
+# Installation
+
 To install program use makefile in Linux and run (in project directory):
 
 ```
@@ -5,11 +7,15 @@ makefile
 makefile clean
 ```
 
+# Deleting
+
 To delete compiled program use:
 
 ```
 makefile delete
 ```
+
+# Errors
 
 If you have difficulty running program after compilation and have error:
 
@@ -25,9 +31,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
 
 This problem occurs when shared library don't export properly and upper command adds current file to LD_LIBRARY_PATH variable that holds paths to shared libraries.
 
-What program do:
+# What program do:
 
-Zadanie nr 2Należy napisać program Code2 pozwalający na obliczanie pól oraz objętości następujących form
+Zadanie nr 2 Należy napisać program Code2 pozwalający na obliczanie pól oraz objętości następujących form
 geometrycznych:
 - kwadrat, sześcian.
 
